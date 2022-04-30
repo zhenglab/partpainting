@@ -1,0 +1,41 @@
+MODE: 1             # 1: train, 2: test, 3: eval
+SEED: 10            # random seed
+GPU: [0]            # list of gpu ids
+MODEL: 1            # 1: PartPainting
+DATATYPE: 1         # 1: objects, 2:scenes
+
+TRAIN_FLIST: ./dataset/celeba/train.flist
+VAL_FLIST: ./dataset/celeba/val.flist
+TEST_MASK: ./dataset/celeba/mask.flist
+
+LR: 0.0002                    # learning rate
+G_LR: 0.00005
+D_LR: 0.0002
+BETA1: 0.0                    # adam optimizer beta1
+BETA2: 0.9                    # adam optimizer beta2
+BATCH_SIZE: 8                 # input batch size for training
+INPUT_SIZE: 256               # input image size for training 0 for original size
+MAX_ITERS: 400001             # maximum number of iterations to train the model
+CENTER: 0
+CATMASK: True                 # True or False
+MEAN: [0.5,0.5,0.5]     # mean value
+STD: [0.5,0.5,0.5]      # standard deviation
+COARSE_ITE: 0
+
+
+G1_ADV_LOSS_WEIGHT: 0.1
+G1_CONTENT_LOSS_WEIGHT: 1
+G1_COLOR_LOSS_WEIGHT: 10
+
+G2_ADV_LOSS_WEIGHT: 0.1
+G2_L1_LOSS_WEIGHT: 8
+G2_STYLE_LOSS_WEIGHT: 250
+G2_COLOR_LOSS_WEIGHT: 10
+G2_MRF_LOSS_WEIGHT: 0.05
+
+KLD_LOSS_WEIGHT: 0.001
+
+INTERVAL: 200
+SAMPLE_SIZE: 8                # number of images to sample
+
+SAVE_INTERAL: 50000
