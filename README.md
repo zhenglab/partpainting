@@ -23,7 +23,7 @@ cd partpainting
 ```
 
 - Install [PyTorch](http://pytorch.org) and 1.7 and other dependencies (e.g., torchvision).
-  - For Conda users, you can create a new Conda environment using `conda install --yes --file requirements.txt`.
+  - For Conda users, you can create a new Conda environment using `conda create --name <env> --file requirements.txt`.
 
 ### Training
 
