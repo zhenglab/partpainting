@@ -48,12 +48,11 @@ For example: python test.py --path=./checkpoints/celeba-hq/
 
 ## Citing
 ```
-@inproceedings{guo2020spiralnet,
-author = {Guo, Dongsheng and Liu, Hongzhi and Zhao, Haoru and Cheng, Yunhao and Song, Qingwei and Gu, Zhaorui and Zheng, Haiyong and Zheng, Bing},
-title = {Spiral Generative Network for Image Extrapolation},
-booktitle = {The European Conference on Computer Vision (ECCV)},
-pages={701--717},
-year = {2020}
+@inproceedings{guo@painting,
+author = {Guo, Dongsheng and Zhao, Haoru and Cheng, Yunhao and Zheng, Haiyong and Gu, Zhaorui and Zheng, Bing},
+title = {Painting from Part},
+booktitle = {ICCV},
+year = {2021}
 } 
 
 ```
