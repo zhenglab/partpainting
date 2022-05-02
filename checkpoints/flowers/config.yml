@@ -4,9 +4,9 @@ GPU: [0]            # list of gpu ids
 MODEL: 1            # 1: PartPainting
 DATATYPE: 1         # 1: objects, 2:scenes
 
-TRAIN_FLIST: ./datasets/celeba-hq/train.flist
-VAL_FLIST: ./datasets/celeba-hq/test.flist
-TEST_MASK: ./datasets/celeba-hq/mask.flist
+TRAIN_FLIST: ./datasets/flowers/train.flist
+VAL_FLIST: ./datasets/flowers/test.flist
+TEST_MASK: ./datasets/flowers/mask.flist
 
 LR: 0.0002                    # learning rate
 G_LR: 0.0001

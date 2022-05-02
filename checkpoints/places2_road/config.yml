@@ -2,11 +2,11 @@ MODE: 1             # 1: train, 2: test, 3: eval
 SEED: 10            # random seed
 GPU: [0]            # list of gpu ids
 MODEL: 1            # 1: PartPainting
-DATATYPE: 1         # 1: objects, 2:scenes
+DATATYPE: 2         # 1: objects, 2:scenes
 
-TRAIN_FLIST: ./datasets/celeba-hq/train.flist
-VAL_FLIST: ./datasets/celeba-hq/test.flist
-TEST_MASK: ./datasets/celeba-hq/mask.flist
+TRAIN_FLIST: ./datasets/places2_road/train.flist
+VAL_FLIST: ./datasets/places2_road/test.flist
+TEST_MASK: ./datasets/places2_road/mask.flist
 
 LR: 0.0002                    # learning rate
 G_LR: 0.0001

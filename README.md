@@ -46,6 +46,10 @@ python test.py --path=$configpath$
 For example: python test.py --path=./checkpoints/celeba-hq/
 ```
 
+### Irregular Outpainting Mask
+
+Irregular outpainting mask can be obtained form [https://pan.baidu.com/s/1cyL5Cp0OddyNggZPmMvl8A?pwd=jk2m](https://pan.baidu.com/s/1cyL5Cp0OddyNggZPmMvl8A?pwd=jk2m). Extraction code: jk2m.
+
 ## Citing
 ```
 @inproceedings{guo@painting,
