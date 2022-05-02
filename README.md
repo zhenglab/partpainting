@@ -27,7 +27,7 @@ cd partpainting
 
 ### Training
 
-Please change the pathes to your dataset path in `datasets` folder. We will update other used datasets train/test splitting files recently. 
+Please change the pathes to your dataset path in `datasets` folder.
 
 The code defaults to regular outpainting task, and you may change mask types for other purpose in `src/dataset.py` and `src/utils.py`.
 
